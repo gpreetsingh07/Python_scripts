@@ -1,4 +1,4 @@
-# Linear Sorting algo
+# Linear Sorting algorithm
 
 items = [5, 4, 6, 7, 3, 1];
 print(items);
