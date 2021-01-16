@@ -5,9 +5,8 @@ print(items);
 l = len(items);
 print(l);
 
-for i in range(0, l-1):
+for i in range(0, l - 1):
     for j in range(i, l):
-        if items[i] > items[j] :
+        if items[i] > items[j]:
             items[i], items[j] = items[j], items[i];
 print(items);
-
